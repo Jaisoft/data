@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.jaisoft
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, data, data-jpa, h2, http-client, java, java-application, jdbc-hikari, junit, liquibase, logback, lombok, maven, netty-server, openapi, readme, shade, spring, spring-boot, spring-data-jpa, spring-web, yaml]
