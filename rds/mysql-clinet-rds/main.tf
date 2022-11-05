@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-  required_version = ">= 1.3.2"
+  required_version = ">= 1.1.2"
 }
 
 
@@ -50,3 +50,16 @@ skip_final_snapshot    = true
     Name = "rds-mysql"
   }
 }
+
+
+resource "aws_instance" "mysql_server" {
+  ami = "ami-0042da0ea9ad6dd83" // Canonical, Ubuntu, 22.04 LTS, amd64 jammy image build on 2022-04-20 eu-west-3
+  instance_type = "t2.micro"
+  key_name= "ssh_test_kp"
+  
+  tags = {
+		Name = "mysql_server"
+	}
+
+  }
+
