@@ -1,0 +1,9 @@
+com/vass/liquibase/repositories/BranchRepository.class
+com/vass/liquibase/services/BranchService.class
+com/vass/liquibase/entities/Branch.class
+com/vass/liquibase/services/BranchServiceImpl.class
+com/vass/liquibase/repositories/EmployeeRepository.class
+com/vass/liquibase/App.class
+com/vass/liquibase/entities/Employee.class
+com/vass/liquibase/services/EmployeeService.class
+com/vass/liquibase/services/EmployeeServiceImpl.class
